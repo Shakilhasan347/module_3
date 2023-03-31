@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav ul {
+    display:flex;
+
+}
+nav ul li{
+list-style: none;
+margin-right: 20px;
+}
+nav ul li:hover{
+    background-color: antiquewhite;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+   
+
+}
