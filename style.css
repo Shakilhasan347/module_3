@@ -3,7 +3,7 @@ body{
 }
 
 
-nav ul {
+nav>ul {
     display:flex;
 
 }
@@ -11,9 +11,25 @@ nav ul li{
 list-style: none;
 margin-right: 20px;
 }
+nav ul li .dropdown{
+    display: none;
+    position: absolute;
+background-color: lightyellow;
+    padding-left: 5px;
+    padding-right: 0px;
+   
+    } 
+    nav ul li .dropdown li{
+
+    margin: 5px;
+    }
 nav ul li:hover{
     background-color: antiquewhite;
+
 }
+nav ul li:hover >.dropdown{
+    display: block;
+} 
 nav ul li a{
     text-decoration: none;
     color: black;
